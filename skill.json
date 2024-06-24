@@ -1,0 +1,110 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa skill about programming curiosities",
+          "examplePhrases": [
+            "Alexa, open programming curiosities",
+            "Alexa, begin programming curiosities",
+            "Alexa, start programming curiosities"
+          ],
+          "keywords": [
+            "Curiosities",
+            "programming",
+            "data",
+            "programming"
+          ],
+          "name": "CuriosidadesDeProgramacion",
+          "description": "Alexa skill about programming curiosities in English",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Skill de Alexa sobre curiosidades de programación",
+          "examplePhrases": [
+            "Alexa, Abre curiosidades programacion",
+            "Alexa, dime curiosidades programacion",
+            "curosidades programacion"
+          ],
+          "keywords": [
+            "Curiosidades",
+            "programación",
+            "datos",
+            "programación"
+          ],
+          "name": "CuriosidadesDeProgramacion",
+          "description": "Alexa que te permite realizar preguntas sobre curiosidades y datos de programación en dos lenguajes, español e ingles",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          },
+          {
+            "sourceLocale": "es-MX",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"¡Cancela!.... ¿Cómo te puedo ayudar?\\nCancela!... entonces... ¿Quieres comenzar?\\ndime un dato curioso sobre programación... cuéntame algo interesante sobre código\"}",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:730335460572:function:ac75c115-8835-4835-9a62-f0e56bfb453a:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:730335460572:function:ac75c115-8835-4835-9a62-f0e56bfb453a:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:730335460572:function:ac75c115-8835-4835-9a62-f0e56bfb453a:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:730335460572:function:ac75c115-8835-4835-9a62-f0e56bfb453a:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://uthh.edu.mx",
+          "privacyPolicyUrl": "https://uthh.edu.mx"
+        },
+        "es-MX": {
+          "termsOfUseUrl": "https://uthh.edu.mx",
+          "privacyPolicyUrl": "https://uthh.edu.mx"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}

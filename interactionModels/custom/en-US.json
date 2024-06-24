@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "goodbye",
+            "stop",
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hello world",
+            "say hello",
+            "hi",
+            "tell me hello world",
+            "tell me hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "tell me a curious fact about programming",
+            "tell me something interesting about code",
+            "give me a curious fact about programming",
+            "I want to know a curiosity about software development",
+            "tell me something curious about programmers",
+            "I want to know a curiosity about programming",
+            "tell me something interesting about programming"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "programming curiosities"
+    }
+  }
+}

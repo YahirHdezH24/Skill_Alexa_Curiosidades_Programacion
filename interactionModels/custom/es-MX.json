@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "adios",
+            "detente",
+            "cancela"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estas",
+            "di hola mundo",
+            "di hola",
+            "hi",
+            "dime hola mundo",
+            "dime hola"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "dime un dato curioso sobre programación",
+            "cuéntame algo interesante sobre código",
+            "dame un dato curioso de programación",
+            "quiero saber una curiosidad sobre desarrollo de software",
+            "cuéntame algo curioso sobre programadores",
+            "quiero saber una curiosidad de programación",
+            "dime algo interesante sobre programación"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosidades programacion"
+    }
+  }
+}
